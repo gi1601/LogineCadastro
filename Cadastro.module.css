@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-left: 80px;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    background-image: url("../public/fundoColorido.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.tudo {
+    background-color: #009621;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.formcontainer {
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    color: #003917;
+
+}
+
+.formcontainer h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form label {
+
+    margin-bottom: 10px;
+
+}
+
+.form input[type='text'],
+.form input[type='password'] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1.5px solid #003917;
+    border-radius: 8px;
+
+}
+
+.form{
+    margin-top: 10px;
+}
+
+
+.form button {
+    width: 80px;
+    padding: 4px;
+    background-color: #003917;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 135px;
+
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+select {
+    width: 380px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #999999;
+    border: 1.5px solid #003917;
+}
+
+select option {
+    background-color: #fff;
+    color: #003917;
+}
+
+select:hover {
+    border-color: #003917;
+}
+
+
+select:focus {
+    outline: none;
+    border-color: #999999;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+.NomeCpf{
+    display: flex;
+    gap: 10px;
+
+}
+
+.UsuarioSenha{
+    display: flex;
+    gap: 10px;
+}
